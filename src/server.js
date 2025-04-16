@@ -14,8 +14,7 @@ export const startServer = () => {
   app.use(express.json());
   app.use(
     cors({
-      origin: '*',
-      methods: ['GET', 'POST', 'PATCH'],
+      methods: ['GET', 'PATCH'],
     }),
   );
 
